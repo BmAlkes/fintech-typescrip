@@ -34,7 +34,7 @@ and after
 <h3>  
 🤝Collaborators</h3>
   
-<img src="https://www.github.com/BmAlkes.png" width="150px" styles="border-radius:50%"/>
+<img src="https://www.github.com/BmAlkes.png" width="150px" style="border-radius:50%"/>
 BmAlkes
 <h2>🎯 Project Status</h2>
 <p>in development for educational purposes</p>
