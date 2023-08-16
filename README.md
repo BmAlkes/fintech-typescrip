@@ -1,6 +1,6 @@
 <h2>🗄️ Fintech project typescript</h2>
 
-<p><a href="">Link project</a></p>
+<p><a href="https://fintech-typescrip.vercel.app/">Link project</a></p>
 
 <img src=""/>
 
