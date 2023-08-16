@@ -5,13 +5,12 @@
 <img src=""/>
 
 <h2>📝 Description</h2>
-<p></p>
+<p>Project with the aim of studying and improving the use of the typescript tool</p>
 
 <hr/>
 
 <h2>📚Functionalities</h2>
-<p></p>
-  <p> </p>
+<p>Dashboard that receives data from a third-party API, for quantity information and sales analysis</p>
   <hr/>
 <h3>🔧
 Technologies used
