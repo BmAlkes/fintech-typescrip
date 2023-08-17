@@ -5,13 +5,13 @@ import { Resume } from "./pages/Resume";
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Sidebar />
       <main>
         <Header />
         <Resume />
       </main>
-    </>
+    </div>
   );
 }
 
