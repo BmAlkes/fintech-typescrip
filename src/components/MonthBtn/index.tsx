@@ -7,16 +7,6 @@ const nameMonth = (n: number) => {
   return new Intl.DateTimeFormat("us-En", { month: "long" }).format(date);
 };
 
-const style: React.CSSProperties = {
-  padding: "var(--gap) var(--gap-s)",
-  backgroundColor: "var(--color-3)",
-  color: "var(--color-5)",
-  border: "none",
-  borderRadius: "10px",
-  fontWeight: "600",
-  textTransform: "capitalize",
-};
-
 const MonthBtn = ({ n }: { n: number }) => {
   const { setFinal, setInicio } = useData();
 
@@ -42,7 +32,6 @@ const MonthBtn = ({ n }: { n: number }) => {
 
   return (
     <button
-      style={style}
       onClick={() => {
         setMonth(n);
       }}

@@ -1,9 +1,9 @@
 html {
-  --color-1: #f2f2f2;
-  --color-2: #348e91;
-  --color-3: #1c5052;
-  --color-4: #213635;
-  --color-5: #0a0c0d;
+  --color-1: #463220;
+  --color-2: #66593c;
+  --color-3: #eceadd;
+  --color-4: #f7f8f5;
+  --color-5: #ffffff;
 
   --gap-s: 0.625rem;
   --gap: 1.25rem;
@@ -28,6 +28,16 @@ button {
   font-family: sans-serif;
   font-size: 1rem;
   cursor: pointer;
+  padding: var(--gap) var(--gap-s);
+  background-color: var(--color-3);
+  color: var(--color-5);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+button:hover {
+  background: var(--color-1) !important;
 }
 
 h1,
@@ -73,6 +83,37 @@ ul {
   display: grid;
   padding: var(--gap);
   gap: var(--gap);
+  grid-template-columns: 240px auto;
+}
+/* sidebar */
+
+.sidenav li {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-s);
+  padding-top: 2rem;
+}
+.sidenav li span {
+  width: 2rem;
+  height: 2rem;
+  background: var(--color-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--gap);
+}
+.sidenav li a {
+  flex: 1;
+  font-size: 1.125rem;
+  color: var(--color-1);
+  padding: var(--gap-s) 0;
+  text-decoration: none;
+}
+.sidenav li:hover span {
+  background-color: var(--color-3);
+}
+.sidenav {
+  min-height: 100vh;
 }
 
 .resumo {
