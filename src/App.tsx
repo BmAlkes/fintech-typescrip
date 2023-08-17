@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 import "./main.css";
 import { Resume } from "./pages/Resume";
+import { Sells } from "./pages/Sells";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Header />
         <Resume />
+        <Sells />
       </main>
     </div>
   );
