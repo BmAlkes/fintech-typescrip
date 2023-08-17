@@ -2,7 +2,7 @@
 
 <p><a href="https://fintech-typescrip.vercel.app/">Link project</a></p>
 
-<img src=""/>
+<img src="https://github.com/BmAlkes/fintech-typescrip/blob/main/src/assets/Screenshot_3.png?raw=true"/>
 
 <h2>📝 Description</h2>
 <p>Project with the aim of studying and improving the use of the typescript tool</p>
