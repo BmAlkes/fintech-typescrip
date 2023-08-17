@@ -6,6 +6,7 @@ import webhooks from "../../assets/icons/webhooks.svg";
 import configuracoes from "../../assets/icons/configuracoes.svg";
 import contato from "../../assets/icons/contato.svg";
 import sair from "../../assets/icons/sair.svg";
+import { NavLink } from "react-router-dom";
 
 export const Sidebar = () => {
   return (
@@ -16,13 +17,13 @@ export const Sidebar = () => {
           <span>
             <img src={resumo} alt="" />
           </span>
-          <a href="">Resume</a>
+          <NavLink to="/">Resume</NavLink>
         </li>
         <li>
           <span>
             <img src={vendas} alt="" />
           </span>
-          <a href="">Sell</a>
+          <NavLink to="/sells">Sell</NavLink>
         </li>
         <li>
           <span>

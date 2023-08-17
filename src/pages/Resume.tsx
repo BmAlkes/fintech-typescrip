@@ -1,5 +1,6 @@
 import React from "react";
 import { useData } from "../Context/DataContext";
+import { GraphicSell } from "../components/graphicSell";
 
 export const Resume = () => {
   const { data } = useData();
@@ -34,7 +35,9 @@ export const Resume = () => {
           </span>
         </div>
       </div>
-      <div className="box mb">Graphics</div>
+      <div className="box mb">
+        <GraphicSell data={data} />
+      </div>
     </section>
   );
 };

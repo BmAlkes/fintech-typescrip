@@ -3,7 +3,7 @@ import MonthBtn from "../MonthBtn";
 
 const MonthsBtn = () => {
   return (
-    <div className="flex">
+    <div className="flex wrap">
       <MonthBtn n={-7} />
       <MonthBtn n={-6} />
       <MonthBtn n={-5} />
